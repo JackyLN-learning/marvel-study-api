@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/JackyLN-learning/marvel-study-api#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
   }
 }
