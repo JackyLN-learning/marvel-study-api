@@ -13,16 +13,6 @@ const client = new Client({
 client.connect()
     .then(() => {
         console.log('Kết nối thành công!');
-
-        // Thực thi một truy vấn SQL (ví dụ: lấy tất cả dữ liệu từ bảng users)
-        // client.query('SELECT * FROM users', (err, res) => {
-        //     if (err) {
-        //         console.error('Lỗi khi thực hiện truy vấn:', err.stack);
-        //     } else {
-        //         console.log(res.rows); // Hiển thị kết quả truy vấn
-        //     }
-        // });
-
         // Đóng kết nối
         client.end();
     })
