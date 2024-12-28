@@ -20,6 +20,6 @@ app.use('/api', characterRoutes);
 // Đồng bộ database và khởi động server
 db.sequelize.sync().then(() => {
     app.listen(port, () => {
-        console.log('Server đang chạy trên cổng ${port}');
+        console.log(`Server đang chạy trên cổng ${port}`);
     });
 });

@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const db = require('../models');
 const FavoriteCharacter = db.FavoriteCharacter;
 

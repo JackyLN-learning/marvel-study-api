@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "marvel",
+    "username": "elsa-admin",
     "password": "qwerty123",
-    "database": "marvel",
-    "host": "143.198.95.141",
+    "database": "learning",
+    "host": "188.166.240.89",
     "dialect": "postgres"
   },
   "test": {
