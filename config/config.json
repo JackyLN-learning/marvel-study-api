@@ -4,6 +4,7 @@
     "password": "qwerty123",
     "database": "learning",
     "host": "188.166.240.89",
+    "port": 5436,
     "dialect": "postgres"
   },
   "test": {
